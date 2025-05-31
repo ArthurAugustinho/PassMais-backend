@@ -1,33 +1,47 @@
-# IDEs
-.vscode/
-.idea/
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+**/target/
 
-# Diretórios de compilação
-/target/
-/bin/
-/out/
-
-# Arquivos do Maven
+# Logs
 *.log
-*.class
-*.jar
-*.war
-*.ear
 
-# Arquivos de sistema
+# OS generated
 .DS_Store
 Thumbs.db
 
-# Arquivos de configuração do Docker
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+
+# Spring Boot devtools
+.spring-boot-devtools.properties
+
+# Test reports
+surefire-reports/
+jacoco.exec
+
+# Environment
+.env
+.env.*
+
+# Docker
 docker-compose.override.yml
-*.env
 
-# Arquivos temporários de sistema operacional
-*.swp
+# Build artifacts
+*.war
+*.jar
+
+# Mac/Linux swap files
 *~
-
-# .gitignore
-docker-compose.yml
-*.log
-*.env
-*.properties
+*.swp

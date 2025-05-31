@@ -1,0 +1,33 @@
+# IDEs
+.vscode/
+.idea/
+
+# Diretórios de compilação
+/target/
+/bin/
+/out/
+
+# Arquivos do Maven
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do Docker
+docker-compose.override.yml
+*.env
+
+# Arquivos temporários de sistema operacional
+*.swp
+*~
+
+# .gitignore
+docker-compose.yml
+*.log
+*.env
+*.properties

@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/passmais
+    username: passmais_user
+    password: kX9#mP2$
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update         # Cria as tabelas automaticamente com base nas entidades
+    show-sql: true             # Mostra as queries SQL no console
+    properties:
+      hibernate:
+        format_sql: true       # Exibe SQL formatado no console
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true      # Resposta JSON mais legível
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+jwt:
+  secret: p$ssm41s-@uth-k3y-2025

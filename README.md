@@ -23,8 +23,7 @@
 - **JUnit** + **Mockito** (Testes)
   
 ### **Frontend**
-- **Angular 17** (Web UI)
-- **Angular Material** (Componentes)
+- **Next.js** (Web UI)
 - **RxJS** + **NGXS** (Gerenciamento de estado)
 - **JWT** + **Guards** (Autenticação)
 - **Cypress** (Testes automatizados)
